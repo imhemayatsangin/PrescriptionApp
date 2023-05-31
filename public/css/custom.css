@@ -1,0 +1,37 @@
+
+@media print {
+            
+    #printbtn{
+        display:none;
+  
+    }
+    nav {
+        display: none;
+        }
+  #mytopheader{
+    display:none;
+  }
+  
+    }
+
+    @page{
+        margin-top:-200px;
+
+        margin-bottom: -200px;
+        /* margin-right: 10px;
+        margin-left: 10px; */
+       
+       
+        
+    }
+
+    @font-face {
+      font-family: 'pashtofont';
+      src: url('fonts\Pashtu_Abdaali.ttf') format("truetype");
+      font-weight: 400; 
+      font-style: normal; 
+  }
+  
+  /* * {
+   font-family: "pashtofont";
+   } */
